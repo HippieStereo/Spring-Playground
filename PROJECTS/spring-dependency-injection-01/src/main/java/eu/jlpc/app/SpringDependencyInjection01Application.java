@@ -1,10 +1,10 @@
-package eu.jlpc.dev;
+package eu.jlpc.app;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import eu.jlpc.bean.MySpringBeanWithDependency;
-import eu.jlpc.bean.config.Config;
+import eu.jlpc.app.bean.MySpringBeanWithDependency;
+import eu.jlpc.app.config.Config;
 
 @SpringBootApplication
 public class SpringDependencyInjection01Application {

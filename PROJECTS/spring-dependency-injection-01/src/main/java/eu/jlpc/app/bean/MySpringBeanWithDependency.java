@@ -1,9 +1,9 @@
-package eu.jlpc.bean;
+package eu.jlpc.app.bean;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import eu.jlpc.dev.model.IWriter;
+import eu.jlpc.app.model.IWriter;
 
 @Service
 public class MySpringBeanWithDependency {
@@ -19,7 +19,7 @@ public class MySpringBeanWithDependency {
 		
 		String s = "This is my test";
 		
-		System.out.println("From \"MySpringBeanWithDependency\" : " + s);
+		writer.writer(s);
 		
 	}
 	

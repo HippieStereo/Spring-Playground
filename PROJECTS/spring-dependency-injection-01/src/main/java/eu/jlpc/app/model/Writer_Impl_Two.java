@@ -1,4 +1,4 @@
-package eu.jlpc.dev.model;
+package eu.jlpc.app.model;
 
 public class Writer_Impl_Two implements IWriter {
 

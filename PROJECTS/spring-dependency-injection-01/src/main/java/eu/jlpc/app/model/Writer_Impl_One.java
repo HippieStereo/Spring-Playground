@@ -1,4 +1,4 @@
-package eu.jlpc.dev.model;
+package eu.jlpc.app.model;
 
 import org.springframework.stereotype.Service;
 
